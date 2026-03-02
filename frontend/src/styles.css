@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+.book-form {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 0.5rem;
+}
+
+input,
+button {
+  font-size: 1rem;
+  padding: 0.6rem 0.75rem;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.book-list {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.5rem 0;
+}
+
+.error {
+  color: #b91c1c;
+  margin-top: 0.8rem;
+}
